@@ -1,0 +1,67 @@
+input{
+  width: 100px;
+}
+.input1{
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.input2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  display: block;
+}
+.input3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  width: 200px;
+}
+.salvar{
+  margin-top: 10px;
+  width: 150px;
+}
+.cancelar{
+  margin-top: 10px;
+  width: 150px;
+}
+.valorfat{
+  margin-top: 120px;
+}
+
+
+.tipo_conta {
+  background-color: rgba(0, 142, 54, 0.825); 
+}
+
+.text {
+  color: azure;
+}
+.margin1{
+margin-left: 51px;
+}
+.margin2{
+margin-left: 31px;
+}
+.margin3{
+  margin-left: 38px;
+}
+.margin4{
+  margin-left: 65px;
+}
+.margin5{
+  margin-left: 50px;
+}
+.margin6{
+  margin-left: 13px;
+}
+.margin7{
+  margin-left: 28px;
+}
+.border1{
+  border-top: 1px solid black;
+}
+.border2{
+  border: 1px solid black;
+}

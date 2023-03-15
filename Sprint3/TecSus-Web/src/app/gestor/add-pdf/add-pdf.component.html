@@ -1,0 +1,40 @@
+<div class="container">
+  <form [formGroup]="form" (submit)="onSubmit()">
+    <div class=" row justify-content-center align-items-center">
+      <div class="row col-3 form-floating">
+        <label class = "mt-2 mr-2"for="floatingSelect">Mês</label>
+        <input type="date" class="form-control border1">
+      </div> 
+
+      <div class="col-5">
+        <div class="input-group ml-5 mt-3 mb-3">
+          <div class="custom-file">
+            <input type="file" class="input form-control border" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+          </div>
+        </div>
+      </div>
+      <div>
+        <input (click)="savePdf()" type="submit" class="enviar mt-2 btn btn-outline-success">
+      </div>
+    </div>
+  </form>
+
+  <table  class="mt-3 table table-hover">
+    <thead>
+      <tr>
+        <th>Data Contrato</th>
+        <th>Tipo de Arquivo</th>
+        <th>Visualizar Arquivo</th>
+      </tr>
+    </thead>
+    <!-- Para cada item do backend ele criar uma coluna da tabela -->
+    <tbody>
+      <tr>
+        <td>23/10/2000</td>
+        <td>Pdf</td>
+        <td>download.pdf</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

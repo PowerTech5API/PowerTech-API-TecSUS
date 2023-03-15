@@ -1,0 +1,31 @@
+label{
+  font-size: 22px;
+}
+
+
+.nome{
+  margin-top: 50px;
+}
+
+.add_cont {
+  border-color: #bfbfbf;
+  background-color: #ffff;
+  border-radius: 30%;
+}
+
+select{
+  height: 2.3rem;
+}
+
+input{
+  height: 2.3rem;
+}
+.margin1{
+  margin-left: 135px;
+}
+.border2{
+  border-top: 1px solid black;
+}
+.border1{
+  border: 1px solid black;
+}

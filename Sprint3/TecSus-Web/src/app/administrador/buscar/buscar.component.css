@@ -1,0 +1,10 @@
+select{
+    height: 2.3rem;
+  }
+  
+  input{
+    height: 2.3rem;
+  }
+.border1{
+  border: 1px solid black;
+}

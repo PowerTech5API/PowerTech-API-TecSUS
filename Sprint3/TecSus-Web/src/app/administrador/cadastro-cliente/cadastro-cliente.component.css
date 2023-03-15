@@ -1,0 +1,14 @@
+label{
+  font-size: 20px;
+}
+
+.inputs{
+  margin-top: 3rem;
+}
+.border1{
+  border: 1px solid black;
+}
+
+.saveCancel{
+  margin-top: 100px;
+}
