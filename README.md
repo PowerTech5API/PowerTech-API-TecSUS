@@ -1,1 +1,0 @@
-# PowerTech-API-TecSUS
